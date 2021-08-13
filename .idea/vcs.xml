@@ -2,5 +2,12 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/project/1.16.5/lib/Spigot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/work/BuildData" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/work/Bukkit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/work/CraftBukkit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/work/Spigot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/work/Spigot/Spigot-API" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/work/Spigot/Spigot-Server" vcs="Git" />
   </component>
 </project>
