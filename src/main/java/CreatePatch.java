@@ -20,9 +20,25 @@ public class CreatePatch {
 
         File work=new File(file,"work");
 
+        File projects=new File(file,"project");
+        File project=new File(projects,version);
+        File projectSrc=new File(project,"src");
+        File spigot=new File(projectSrc,"Spigot");
+        spigot.mkdirs();
+
+        File lib=new File(project,"lib");
+        File spigotLib=new File(lib,"Spigot");
+        spigotLib.mkdirs();
+
+
     }
 
     public static void logger(String s) {
         System.out.println(s);
+    }
+}
+class Files{
+    public Files(){
+
     }
 }

@@ -6,6 +6,7 @@ import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
 
 public class Util {
     public static void runCommand(String[] command, File dir) {
+        System.out.println("run jar...");
         String result;
         Process process=null;
         Runtime runtime = Runtime.getRuntime();
@@ -14,6 +15,7 @@ public class Util {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        System.out.println("out put log...");
         InputStream inputStream = process.getInputStream();
         InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
