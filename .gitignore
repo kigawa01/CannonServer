@@ -1,1 +1,17 @@
 /target/
+/PortableGit*
+/BuildTools.log.txt
+/Bukkit/
+/.idea/
+/CraftBukkit/
+/work/
+/BuildData/
+/CraftBukkit/src/
+/CraftBukkit/src/main/
+/CraftBukkit/src/main/java/
+/CraftBukkit/src/main/java/net/
+/CraftBukkit/src/main/java/net/minecraft/
+/CraftBukkit/src/main/java/net/minecraft/server/AdvancementDataPlayer.java
+/apache-maven-3.6.0/lib/
+/apache-maven-3.6.0/
+/Spigot/
