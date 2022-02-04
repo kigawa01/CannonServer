@@ -219,7 +219,7 @@ public class Builder
                     // yes to all, silent, don't run. Only -y seems to work
                     runProcess( gitInstall.getParentFile(), gitInstall.getAbsolutePath(), "-y", "-gm2", "-nr" );
 
-                    gitInstall.delete();
+                    //gitInstall.delete();
                 }
 
                 System.out.println( "*** Using downloaded git " + msysDir + " ***" );
@@ -361,7 +361,7 @@ public class Builder
                 // https://www.apache.org/dist/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.zip.sha512
                 download( "https://static.spigotmc.org/maven/" + mvnTemp.getName(), mvnTemp, HashFormat.SHA512, "7d14ab2b713880538974aa361b987231473fbbed20e83586d542c691ace1139026f232bd46fdcce5e8887f528ab1c3fbfc1b2adec90518b6941235952d3868e9" );
                 unzip( mvnTemp, new File( "." ) );
-                mvnTemp.delete();
+                //mvnTemp.delete();
             }
         }
 
@@ -570,7 +570,7 @@ public class Builder
         try
         {
             File latestLink = new File( workDir, "decompile-latest" );
-            latestLink.delete();
+            //latestLink.delete();
 
             java.nio.file.Files.createSymbolicLink( latestLink.toPath(), decompileDir.getParentFile().toPath().relativize( decompileDir.toPath() ) );
         } catch ( UnsupportedOperationException ex )
